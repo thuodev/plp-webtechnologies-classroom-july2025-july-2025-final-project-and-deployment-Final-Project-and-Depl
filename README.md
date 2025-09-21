@@ -1,6 +1,8 @@
 # Samson Thuo — Personal Portfolio
 
 A modern, dark-themed personal portfolio website to showcase my services, learning journey at PLP, and provide a way for potential clients to contact me.
+## live demo
+[Visit My Portfolio](https://thuodev.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/)
 
 ## Features
 
