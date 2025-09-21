@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Samson Thuo</title>
+  <meta name="description" content="Get in touch with Samson Thuo." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-row">
+      <a class="brand" href="index.html">Samson Thuo</a>
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav id="mainNav" class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Contact Me</h1>
+    <form class="contact-form" onsubmit="return validateForm(event)">
+      <label for="name">Name</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="5" required></textarea>
+
+      <button class="btn" type="submit">Send</button>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Samson Thuo</strong>
+        <p>Graphic design • Virtual assistant • Social media</p>
+      </div>
+      <div>
+        <p>Contact</p>
+        <p><a href="mailto:thuosonkariuki@gmail.com">thuosonkariuki@gmail.com</a> • 0114071456</p>
+      </div>
+      <div>
+        <p>&copy; <span id="year"></span> Samson Thuo. Built for PLP final project.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script>
+    function validateForm(event) {
+      event.preventDefault();
+      alert("Thank you! Your message has been submitted.");
+      return false;
+    }
+  </script>
+</body>
+</html>
